@@ -27,11 +27,9 @@ for character in people:
 tv = ["GOT",
       "Narcos",
       "Vice"]
-i = 0
-for show in tv:
+for i, show in enumerate(tv):
     new = tv[i]
     new = new.upper()
     tv[i] = new
-    i += 1
 
 print(tv)
